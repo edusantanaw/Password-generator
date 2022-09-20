@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="principal">
+        <h1 class="title">Password Generator</h1>
+        <section class="card">
+            <span id="length">Caracter Length</span>
+
+            <input type="range" id="bar" step="1" min = "0" max="20" value="0">
+
+            <div class="check">
+                <input type="checkbox" id="upper">
+                <label for="">Incudes Uppercase Letters</label>
+            </div>
+            <div class="check">
+                <input type="checkbox" id="lower">
+                <label for="">Incudes Lowercase Letters</label>
+            </div>
+            <div class="check">
+                <input type="checkbox" id="numbers">
+                <label for="">Incudes Numbers</label>
+            </div>
+            <div class="check" >
+                <input type="checkbox" id="teste">
+                <label for="">Incudes Synbols</label>
+            </div>
+            <div class="return">
+                <button type="submit" id="submit">GENERATE</button>
+                <script src="script.js"></script>
+                    <p id="status"></p>
+            </div>
+        </section>
+        <div class="senha">
+            <p id="senha"></p>
+        </div>
+    </div>
+</body>
+
+</html>
